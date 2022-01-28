@@ -1,0 +1,146 @@
+@media(max-width:1024px){
+    .back-pic:after,#pic,#pic2,#pic3,#pic4,#pic5,#pic6,#baner-pic{
+      display: none;
+    }
+    .back-pic2{
+      height: auto;
+    }
+  }
+  @media(max-width:990px){
+    .back-pic{
+    background:linear-gradient(120deg,rgba(18,18,18,0.7) 100%,transparent 10%),url("../img/slika1.jpg");
+    height: 550px !important;
+    }
+    .back-pic1{
+      background:linear-gradient(240deg,rgba(18,18,18,0.7) 100%,transparent 0%),url("../img/ww.jpg");
+    }
+    .textdiv{
+      margin-left: 0px !important;
+      text-align: center;
+    }
+    #clients h3{
+      text-align: center !important;
+      margin-top: 40px !important;
+      margin-bottom: 0px !important;
+    }
+    #clients p{
+      text-align: center;
+      padding-top: 10px !important;
+    }
+    .proof img{
+      width: 150px !important;
+      height: 150px !important;
+    }
+  }
+  @media(max-width:950px){
+    .hamburger{
+      display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    #nav-menu{
+      position: fixed;
+      left: -100%;
+      top: 80px;
+      gap:0;
+      flex-direction: column;
+      background-color: #121212;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .nav-item{
+      margin: 16px 0;
+    }
+    #nav-menu.active{
+      left: 0;
+    }
+    .margin{
+      text-align: center !important;
+      margin-left: 0px !important;
+    }
+    .about{
+      margin-bottom: 20px !important;
+    }
+    .authortext p{
+      text-align: center;
+    }
+    .author img{
+      width: 40%;
+      margin-bottom: 10px;
+    }
+    .proof img{
+      width: 100px !important;
+      height: 100px !important;
+    }
+  
+  }
+  @media(max-width:850px){
+    .textdiv{
+      margin-left: 0% !important;
+      margin-top: 10% !important;
+      text-align: center !important;
+    }
+    .textdiv h1{
+      font-size: 38px !important;
+    }
+  }
+  @media(max-width:550px){
+    .textdiv h1{
+      margin-top: 20% !important;
+      font-size: 32px !important;
+    }
+    .proof{
+      margin-bottom: 0px !important;
+    }
+    .proof img{
+      width: 80px !important;
+      height: 80px !important;
+    }
+    .authortext p{
+      font-size: 12px !important;
+    }
+    .proof img{
+      width: 60px !important;
+      height: 60px !important;
+    }
+    .number{
+      font-size: 35px solid !important;
+    }
+    .proof p{
+      margin-bottom: 0px !important;
+    }
+    #gallery a{
+      width: 50% !important;
+    }
+    .navbar{
+      justify-content: space-between;
+    }
+    .copyRight{
+      font-size: 10px !important;
+      padding-top: 5px;
+    }
+    .fottermenu{
+      font-size: 12px !important;
+    }
+  }
+  @media(max-width:350px){
+    .textdiv h1{
+      margin-top: 25% !important;
+      font-size: 24px !important;
+    }
+    .copyRight{
+      font-size: 8px !important;
+      padding-top: 5px;
+    }
+    .fottermenu{
+      font-size: 8px !important;
+    }
+  }
