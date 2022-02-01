@@ -30,6 +30,9 @@ a{
 ul li a:hover{
   color: #0bffdc !important;
 }
+h1{
+  font-size: 36px !important;
+}
 .navbar{
   width: 100%;
   min-height: 70px;

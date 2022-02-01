@@ -5,7 +5,7 @@
     .back-pic2{
       height: auto;
     }
-  }
+}
   @media(max-width:990px){
     .back-pic{
     background:linear-gradient(120deg,rgba(18,18,18,0.7) 100%,transparent 10%),url("../img/slika1.jpg");
