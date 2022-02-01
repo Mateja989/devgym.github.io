@@ -556,15 +556,11 @@ document.querySelector("#submitForm").addEventListener("click",function() {
     {
         thankYouBtn.innerHTML="Thank you for contacting Us about your free first training";
         errorBtn.innerHTML="";
-        console.log(noErrors)
-        console.log(birth.checked)
     }
     else
     {
         errorBtn.innerHTML="Please fill in all required field with your personal information";
         thankYouBtn.innerHTML="";
-        console.log(noErrors)
-        console.log(birth.checked)
     }
 });
     
