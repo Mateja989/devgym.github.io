@@ -82,7 +82,7 @@ const slideContent =
         sentences : "What are you waiting for?"
     }, 
     {
-        title: "YOUR BODY CAN STAND ALMOST ANYTHING.IT'S YOUR MIND THAD YOU HAVE TO CONTINUE.",
+        title: "YOUR BODY CAN STAND ALMOST ANYTHING.IT'S YOUR MIND THAT YOU HAVE TO CONTINUE.",
         sentences : "Believe you can and you will!"
     }
 ];
@@ -138,7 +138,7 @@ function showSlides(){
     }
     slides[slideIndex-1].style.display="block";
     dots[slideIndex-1].className += " activeSlider";
-    setTimeout(showSlides,2000)
+    setTimeout(showSlides,2500)
 }
 
 //PROGRAMS SECTION
