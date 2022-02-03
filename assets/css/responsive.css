@@ -1,4 +1,4 @@
-@media(max-width:1024px){
+@media(max-width:1100px){
     .back-pic:after,#pic,#pic2,#pic3,#pic4,#pic5,#pic6,#baner-pic{
       display: none;
     }
@@ -130,7 +130,17 @@
     .fottermenu{
       font-size: 12px !important;
     }
+    footer h3{
+      font-size: 22px;
+    }
+    footer i{
+      font-size: 20px;
+    }
+    footer p{
+      font-size: 14px;
+    }
   }
+
   @media(max-width:350px){
     .textdiv h1{
       margin-top: 25% !important;

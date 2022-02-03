@@ -588,12 +588,12 @@ $(document).ready(function(){
         color: "#FFFFFF",
         fontSize:"14px",
     }); 
-    //HOVER EFEKAT PRICING SECTION
+    //HOVER PRICING SECTION
     $('.pricing').hover(
         function(){$(this).addClass('pricingHover');},
          function(){$(this).removeClass('pricingHover');}
          );
-    //GALLERY LIGHTBOX PLUGIN
+    //PLUGIN
     lightGallery(document.querySelector("#gallery"))
 });
 
