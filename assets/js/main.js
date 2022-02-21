@@ -1,4 +1,8 @@
 //FUNCTIONS FOR ATR AND APND  
+
+let url=window.location.pathname;
+console.log(url)
+
 function set(elements, attributes) {
     for (let i = 0; i < elements.length; i++) 
         for (let j = 0; j < attributes.length; j += 2) 
